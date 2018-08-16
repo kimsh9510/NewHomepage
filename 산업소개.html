@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <link rel="stylesheet" type="text/css" href="semantic/semantic.css">
+
+  <script
+    src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous"></script>
+  <script src="semantic/semantic.js"></script>
+  <Link rel="stylesheet" href="style.css">
+  <style>
+    body{
+      padding:2rem;
+    }
+    .column{border:1px solid gray}
+  </style>
+
+
+  </head>
+  <body>
+    <div class="ui container" style=" width:1500px; height:1000px; ">
+    <a id="header" href="mainpage.html"><img src="name.jpg" style="margin-left:0px;"></a>
+
+    <div class="ui five item menu" style="background-color: #696969;">
+      <div class="ui pointing dropdown link item">
+        <span class="text">주요사업</span>
+        <i class="dropdown icon"></i>
+              <div class="menu">
+                  <a class="item" href="주요사업1.html">산업소개</a>
+                  <a class="item" href="주요사업2.html">기술개발</a>
+              </div>
+      </div>
+
+                <div class="ui pointing dropdown link item">
+                  <span class="text">센터소개</span>
+                  <i class="dropdown icon"></i>
+                        <div class="menu">
+                          <a class="item" href="주요사업1.html">인사말</a>
+                          <a class="item" href="주요사업1.html">연구소 소개</a>
+                          <a class="item" href="주요사업1.html">비전 및 목표</a>
+                          <a class="item" href="주요사업1.html">오시는 길</a>
+                        </div>
+                </div>
+                <div class="ui pointing dropdown link item">
+                  <span class="text">정보마당</span>
+                  <i class="dropdown icon"></i>
+                        <div class="menu">
+                          <a class="item" href="주요사업1.html">공지사항</a>
+                          <a class="item" href="주요사업1.html">사업성과</a>
+                        </div>
+                </div>
+
+                <div class="ui pointing dropdown link item">
+                  <span class="text">자료실</span>
+                  <i class="dropdown icon"></i>
+                        <div class="menu">
+                          <a class="item" href="주요사업1.html">학술대회</a>
+                          <a class="item" href="주요사업1.html">갤러리</a>
+                        </div>
+                </div>
+                <div class="ui pointing dropdown link item">
+                  <span class="text">발간물</span>
+                  <i class="dropdown icon"></i>
+                        <div class="menu">
+                          <a class="item" href="주요사업1.html">보고서</a>
+                          <a class="item" href="주요사업1.html">논문</a>
+
+                        </div>
+                </div>
+
+    </div>
+    <div id="wrap" style="padding-top:30px;">
+
+        <div class="ui vertical menu" style="margin-top:30px; background-color: #808080; float:left;">
+          <div class="ui left pointing dropdown link item">
+            <i class="dropdown icon"></i>
+            주요사업
+            <div class="menu">
+              <div class="item">산업소개</div>
+              <div class="item">기술개발</div>
+
+            </div>
+          </div>
+
+          <div class="ui left pointing dropdown link item">
+            <i class="dropdown icon"></i>
+            센터소개
+            <div class="menu">
+              <div class="item">인사말</div>
+              <div class="item">연구소 소개</div>
+              <div class="item">비전 및 목표</div>
+              <div class="item">오시는 길</div>
+
+
+            </div>
+          </div>
+          <div class="ui left pointing dropdown link item">
+            <i class="dropdown icon"></i>
+          정보마당
+            <div class="menu">
+              <div class="item">공지사항</div>
+              <div class="item">사업성과</div>
+
+            </div>
+          </div>
+          <div class="ui left pointing dropdown link item">
+            <i class="dropdown icon"></i>
+            자료실
+            <div class="menu">
+              <div class="item">학술대회</div>
+              <div class="item">갤러리</div>
+
+
+            </div>
+          </div>
+          <div class="ui left pointing dropdown link item">
+            <i class="dropdown icon"></i>
+            발간물
+            <div class="menu">
+              <div class="item">보고서</div>
+              <div class="item">논문</div>
+
+
+            </div>
+          </div>
+        </div>
+
+    </div>
+    <div id="name" style="margin-left:300px;">
+          <h1>산업소개</h1>
+
+        <div class="ui large breadcrumb" style="margin-top:15px;">
+          <a class="section">홈</a>
+          <i class="right chevron icon divider"></i>
+          <a class="section">주요사업</a>
+          <i class="right chevron icon divider"></i>
+          <div class="active section"> 산업소개</div>
+        </div>
+        <hr>
+      </div>
+
+<img src="내용.jpg" style="padding-left:80px;">
+
+<script>
+$('.ui.dropdown').dropdown({/*추가기능*/
+  direction:'downward',
+  duration:500,
+
+})
+  $('#menu').click(function(){
+    $('.ui.sidebar').sidebar('setting','transition','overlay').sidebar('toggle') .sidebar('remove body CSS', argumentOne, argumentTwo);
+
+  })
+
+</script>
+
+</div>
+  </body>
+
+      <div class="ui container" style="padding-top:50px;padding-bottom:100px">
+        <footer>
+
+               <div id="link">
+             				<select name="jumpMenu2" id="jumpMenu2" onChange="if(this.value) window.open(this.value);">
+             				<option>주요사이트</option>
+             				<option value="http://www.knu.ac.kr">경북대학교</option>
+             				<option value="http://iac.knu.ac.kr">경북대학교 산학협력단</option>
+             				</select>
+             			</div>
+
+          <div>
+          <p><img src="bottomname.jpg">
+          <Li>41566 대구광역시 북구 대학로 80 경북대학교</Li>
+          <Li>안내전화 000-000-0000, 이메일 aaa@aaaa.com</Li>
+          <Li>FAX 000-000-0000</Li>
+    </div>
+
+
+
+        </footer>
+
+      </div>
+
+</html>

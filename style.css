@@ -1,0 +1,41 @@
+
+.vertical menu{
+
+}
+footer{
+                clear:center;
+                list-style-type:none;
+                text-align:center;
+                margin:auto;
+
+
+                }
+.text{
+  font-weight:bold;
+}
+#header{
+  font-size:50px;
+  margin-left:0px;/*Homepage 왼쪽 여백*/
+  text-decoration: none;
+  color:black;
+}
+h1{
+  margin-right:50px;
+  font-size:45px;
+}
+#section{
+            padding-left:880px;/*공지사항 글씨 왼쪽 여백*/
+            width:560px;
+            height:100%;
+            padding-top: 5px;
+            }
+
+#picture{
+  padding-top:60px;
+}
+#email{
+
+}
+#five{
+   display:inline;
+}
